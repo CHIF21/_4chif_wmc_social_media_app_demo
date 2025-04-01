@@ -23,6 +23,7 @@ function AddPost({posts, setPosts} : IAddPostProps) {
             dislikes: 0,
             comments: []
         }
+
         setPosts([...posts, newPost]);
         setTitle("");
         setText("");
